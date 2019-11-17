@@ -16,8 +16,8 @@ public class VerifyConfirmationMessage {
      */
     public static void main(String[] args) throws InterruptedException {
 
-        WebDriver driver = WebDriverFactory.getDriver("firefox");
-
+        //WebDriver driver = WebDriverFactory.getDriver("firefox");
+        WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/forgot_password");
         WebElement emailInputBox = driver.findElement(By.name("email"));
 
