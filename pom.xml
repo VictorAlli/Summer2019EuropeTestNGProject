@@ -33,6 +33,23 @@
             <version>3.7.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.9</version>
+            <!--the updated versions does not import ExtentHtmlReporter class-->
+        </dependency>
+
+
+
 
 
     </dependencies>
